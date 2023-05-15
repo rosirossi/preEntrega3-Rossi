@@ -1,4 +1,4 @@
-alert("Bienvenidxs a Mutto Detail");
+/*alert("Bienvenidxs a Mutto Detail");
 
 let consulta=confirm("¿Desea sacar un turno?");
 
@@ -63,4 +63,19 @@ function Cliente(id, nombre, apellido, servicio, tipoVehiculo, calificacion) {
     this.calificacion= calificacion
 }
 
+*/
 
+let inputs= document.getElementsByClassName('formulario__input')
+
+for (let i=0; i< inputs.length; i++) {
+  inputs[i].addEventListener('keyup', function(){
+   
+  })
+}
+
+
+let boton_submit = document.getElementById("boton_submit")
+      boton.addEventListener("click", respuestaClick)
+      function respuestaClick(){
+        console.log("Respuesta del evento");
+      }

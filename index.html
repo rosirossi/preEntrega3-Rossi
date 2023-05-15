@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
     <title>Primera pre-entrega</title>
 </head>
 <body>
     <h1>Mutto Detail</h1>
+    <form class="formulario"id ="formulario"  method="post" action="">
+        <ul>
+            <li>
+                <label class="label__formulario" for="nombre" >Nombre completo</label>
+                <input class="input__formulario" type="text" id="nombre" placeholder="Nombre completo">
+            </li>
+            <li>
+                <label class="label__formulario" for="telefono">Teléfono</label>
+                <input class="input__formulario" type="tel" id="telefono" placeholder="Teléfono">
+            </li>
+            <li>
+                <label class="label__formulario" for="vehiculo">Vehículo</label>
+                <input class="input__formulario" type="text" id="vehiculo" placeholder="Vehiculo">
+            </li>
+            <li>
+                <label class="label__formulario" for="servicio">Tipo de servicio solicitado</label>
+                <input class="input__formulario" type="text" id="servicio" placeholder="Tipo de servicio">
+            </li>
+            <li>
+                <label class="label__formulario" for="turno">Turno</label>
+                <input class="input__formulario" type="date" id="turno">
+            </li>
+            <li>
+                <label class="label__formulario" for="mensaje">Mensaje adicional:</label>
+                <textarea id="mensaje" placeholder="Mensaje adicional"></textarea>
+            </li>
+            <li>
+                <button id ="boton_submit" type="submit">Reservar turno</button>
+            </li>
+        </ul>
+
+    </form>
+
     <script src="./main.js"></script>
 </body>
 </html>

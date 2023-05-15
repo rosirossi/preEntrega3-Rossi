@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+  ul label {
+    width: 150px;
+    height: 20px;
+    display: inline-block; }
+  ul input [type='text'] {
+    width: 80%;
+    height: 20px; }
